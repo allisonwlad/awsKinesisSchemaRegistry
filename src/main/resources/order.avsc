@@ -1,0 +1,22 @@
+{
+  "namespace": "order.avro",
+  "type": "record",
+  "name": "Oorder",
+  "fields": [
+    {
+      "name": "orderId",
+      "type": "int"
+    },
+    {
+      "name": "product",
+      "type": "string"
+    },
+    {
+      "name": "quantity",
+      "type": [
+        "int",
+        "null"
+      ]
+    }
+  ]
+}
